@@ -1,0 +1,36 @@
+*{
+    color: chartreuse;
+}
+
+
+p, span {
+    font-family: 'Kanit', sans-serif;
+
+    color: blue;
+    width: 300px;
+}
+
+/**
+   Esto es un comentario de CSS 
+*/
+
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo{
+    color: red;
+    font-size: 25px;
+    width: 40px;
+    border: 12px outset orangered;
+}
+
+.clase{
+    font-weight: bold;
+    color: aqua;
+
+}
