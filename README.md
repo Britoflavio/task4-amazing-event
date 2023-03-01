@@ -1,0 +1,1 @@
+Este es mi proyecto final de TICMAS el cual realice en un cursado de 1 mes aprendiendo HTML, CSS y JAVASCRIP<br>En esta academia estuvo con aprendiendo del mentor <b>DANIEL RINALDI</b> el cual nos hablo de fundamentos de la programacion y desarrollo web<br>
