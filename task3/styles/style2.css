@@ -4,7 +4,7 @@
   color: #ffffff;
 }
 body{
-  background-image: url(/boostcamp/Tarea2/images/hd-wallpaper-1846865_1920.jpg);
+  background-image: url(/task3/images/hd-wallpaper-1846865_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -64,7 +64,7 @@ body{
 }
 .imgbottom{
   display: flex;
-  background-image: url(/boostcamp/Tarea2/images/together-2.jpg);
+  background-image: url(/task3/images/together-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -88,7 +88,7 @@ body{
 }
 .doubleimg{
   display: flex;
-  background-image: url(/boostcamp/Tarea2/images/boy.png);
+  background-image: url(/task3/images/boy.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -168,7 +168,7 @@ body{
 /*           CONTACT           */
 .contact-h{
   display: flex;
-  background-image: url(/boostcamp/Tarea2/images/together.jpg);
+  background-image: url(/task3/images/together.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
