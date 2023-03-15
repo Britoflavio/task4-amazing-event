@@ -1,0 +1,316 @@
+/*           GENERALES           */
+*{
+  font-size: 62.5%;
+  color: #ffffff;
+}
+body{
+  background-image: url(/boostcamp/Tarea2/images/hd-wallpaper-1846865_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*           NAV           */
+.hover-nav{
+  margin-top: 4rem;
+}
+.hover-nav a{
+  text-decoration: none;
+  color: rgb(207, 119, 5);
+  padding: 16px 22px;
+  border-radius: 2rem;
+  margin: 5rem;
+  font-weight: 600;
+  font-size: 6rem;
+}
+.hover-nav a:hover{
+  background-color: rgba(0, 0, 0, 0.644);
+  color: rgb(207, 119, 5);
+}
+.hover-nav a:hover,
+.hover-nav a.active{
+  background-color: rgba(207, 119, 5, 0.724);
+  color: #fefefe;
+}
+.logo1{
+  position: absolute;
+  right: 10%;
+ }
+ /*           HOME           */
+.welcom h1{
+  font-size: 12rem;
+  margin: 0px;
+  width: 40rem;
+  bottom: 20%;
+  left: 35%;
+  text-align: center;
+  color: rgb(207, 119, 5);
+  background-color: rgba(0, 0, 0, 0.454);
+  border-radius: 20rem
+}
+.welcom h2{
+  font-size: 4rem;
+  margin: 0px;
+  width: 40rem;
+  text-align: center;
+  color: rgb(207, 119, 5);
+  background-color: rgba(0, 0, 0, 0.454);
+  border-radius: 20rem;
+  margin-bottom: 3rem;
+}
+.img-index2{
+  display: none;
+}
+.img-index{
+  display: none;
+}
+.imgbottom{
+  display: flex;
+  background-image: url(/boostcamp/Tarea2/images/together-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  margin: 10rem;
+}
+.welcom{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  box-shadow: 4px 0px 20px 14px #020202;
+}
+.buttom1{
+  color: antiquewhite;
+  font-size: 8rem;
+  border-radius: 55px;
+  background: linear-gradient(145deg, #c06a01, #020202);
+  box-shadow:  21px 21px 42px #787777, -21px -21px 42px #010000;
+}
+.doubleimg{
+  display: flex;
+  background-image: url(/boostcamp/Tarea2/images/boy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 80%;
+  text-align: center;
+  margin: 17rem;
+  padding: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 4px 0px 20px 14px #020202;
+}
+.home1{
+  display: flex;
+  align-items: end;
+  text-align: center;
+  width: 120rem;
+  height: 20rem;
+  font-size: 5rem; 
+  color: rgb(249, 241, 3);
+  background-color: rgba(0, 0, 0, 0.432);
+}
+/*           ABOUT           */
+.main-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about1{
+  display: flex;
+  font-size: 10rem;
+  text-align: center;
+  justify-content: center;
+  width: 50rem;
+  color: rgb(241, 241, 241);
+  border-radius: 20rem;
+  color: rgb(207, 119, 5);
+  text-shadow: 5px 5px black;
+}
+.about2{
+  display: flex;
+  font-size: 8rem;
+  text-align: center;
+  justify-content: center;
+  width: 40rem;
+  color: rgb(207, 119, 5);
+  margin-top: 5px;
+  border-radius: 20rem;
+  text-shadow: 5px 5px black;
+}
+.containerAbout{
+  display: flex;
+  gap: 5rem;
+  width: 33%;
+  margin-top: 10rem;
+}
+.div-img{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0px 20px 14px #020202;
+  margin-bottom: 8rem;
+}
+.img-about{
+  display: flex;
+  width: 57rem;
+  height: 40rem;
+}
+.pabout{
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(253, 147, 8);
+  text-shadow: 3px 3px #030303;
+
+}
+/*           CONTACT           */
+.contact-h{
+  display: flex;
+  background-image: url(/boostcamp/Tarea2/images/together.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 15rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10rem;
+  box-shadow: 4px 0px 20px 14px #020202;
+  
+}
+.contact-h h1{
+  color: rgb(253, 147, 8);
+}
+.contact-h h2{
+  color: rgb(253, 147, 8);
+  margin: 1px;
+}
+.div-contact{
+  height: 40vh;
+  display: flex;
+  font-size: 6rem;
+  width: 100%;
+  align-items: center;
+  box-shadow: inset 4px 0px 20px 14px #020202;
+}
+
+.div-contact1{
+  display: flex;
+  width: 50%;
+  height: 40%;
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.738);
+}
+.link-contact{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.738);
+}
+.hover-nav a {
+  font-size: 3rem;
+  width: 20rem;
+  gap: 2rem;
+  background: transparent;
+  border: none;
+  color: #d1a103;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.contac-img{
+  display: none;
+}
+/*         TABLE      */ 
+.tabla-1 {
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  box-shadow: 4px 3px 20px 20px #000000a1;
+}
+.tabla-2 {
+  width: 119vh;
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.tabla-1 td,.tabla th{
+  line-height: 3;
+  background-color: #2b1741cc;
+  padding: 15px;
+  margin: 5px;
+  color: #f3f0d1;
+  text-shadow: 5px 5px rgb(0, 0, 0);
+}
+tbody{
+  font-size: 12rem;
+}
+th{
+  background-color:rgba(207, 119, 5, 0.867);
+  color: #f3f0d1;
+  text-shadow: 5px 5px rgb(0, 0, 0);
+}
+/*         BENEFITS      */ 
+.container-benefits{
+  display: flex;
+  justify-content: center;
+}
+.title-benefits h1{
+  color: #fb8600;
+}
+.title-benefits h3{
+  color: #fb8600;
+}
+.title-benefits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  font-size: 8rem;
+  box-shadow: inset 0px 1px 20px 20px black;
+  width: 100rem;
+}
+.main-benefits{
+  display: flex;
+  flex-direction: column;
+}
+.div-benefits{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-benefits{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5rem;
+  box-shadow: 1px 2px 20px 20px black;
+}
+.text-benefits p,.text-benefits li{
+  color: #fb8600;
+}
+.text-benefits {
+  display: flex;
+  flex-direction: column;
+  width: 67rem;
+  height: 40rem;
+  font-size: 8rem;
+  align-items: center;
+  padding: 19px;
+  margin: 10px;
+  color: #fb8600;
+  box-shadow: inset 3px 3px 20px 18px black;
+}
