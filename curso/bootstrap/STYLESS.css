@@ -144,7 +144,7 @@ progress {
   width: 100%;
   justify-content: center;
 }
-.card {
+.card { 
 position: relative;
 list-style: none;
 gap: 30px;
@@ -287,4 +287,3 @@ footer{
   transition: all 0.2s ease-in;
   color: white;
 }
-
