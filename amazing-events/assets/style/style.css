@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body {
+	background: #eb5757; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #000000, #eb5757); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#000000,
+		#eb5757
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main {
+	min-height: 60vh;
+}
+/* NAV */
+.navbar {
+	justify-content: space-evenly;
+}
+
+.imgNav {
+	max-height: 48px;
+}
+
+.container {
+	margin: 0;
+	width: 100%;
+}
+
+.marginCero {
+	margin: 20px !important;
+	width: auto !important;
+}
+/* CARDS */
+
+main {
+	max-width: 1280px;
+	margin: 0 auto;
+	min-height: calc(100vh - 194px);
+}
+
+.custom-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+	gap: 1rem;
+	margin: 1rem 0px;
+}
+
+.card {
+	height: 100%;
+	width: 100%;
+	border: none;
+	min-height: 500px;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-text {
+	height: 100%;
+	border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.cardImg {
+	width: 100%;
+	height: 55%;
+}
+
+.card-footer {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.btn1 {
+	box-shadow: 5px 5px 5px 5px black;
+}
+/* footer */
+.iconsmall {
+	font-size: 1.4rem;
+	max-width: 150px;
+}
+footer {
+	max-height: 3rem;
+	padding: 4px 0;
+	justify-content: space-evenly;
+}
+
+footer > p {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+/* Contact */
+
+.form1 {
+	font-size: 4rem;
+	width: 15%;
+	height: 45vh;
+	min-width: 40vh;
+}
