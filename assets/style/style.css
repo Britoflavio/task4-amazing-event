@@ -5,13 +5,13 @@
 	color: white;
 }
 body {
-	background: #eb5757; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #000000, #eb5757); /* Chrome 10-25, Safari 5.1-6 */
+	background: #eb5757; 
+	background: -webkit-linear-gradient(to right, #000000, #eb5757); 
 	background: linear-gradient(
 		to right,
 		#000000,
 		#eb5757
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	); 
 }
 main {
 	min-height: 60vh;
@@ -86,7 +86,8 @@ main {
 	max-width: 150px;
 }
 footer {
-	max-height: 3rem;
+	height: 4rem;
+	max-height: 5rem;
 	padding: 4px 0;
 	justify-content: space-evenly;
 }
@@ -103,4 +104,20 @@ footer > p {
 	width: 15%;
 	height: 45vh;
 	min-width: 40vh;
+}
+/* TABLE */
+table{
+  text-align: center;
+  width: 90%;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+table, tr, th, td{
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 0.5rem 0.5rem;
+}
+tr th{
+  background-color: #000000;
 }
