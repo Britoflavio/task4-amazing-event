@@ -1,4 +1,4 @@
-const data={
+/* const data={
     "dateNow": "2022-01-01",
     "allEvents": [
     {
@@ -156,4 +156,4 @@ const data={
         "price":250
     }
     ]
-}
+} */
